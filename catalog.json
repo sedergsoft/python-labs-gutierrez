@@ -1,0 +1,37 @@
+{
+  "source": "inbox",
+  "total_files": 6,
+  "imported": 3,
+  "skipped": 3,
+  "errors": [
+    {
+      "path": "inbox\\broken.json",
+      "reason": "Expecting value: line 1 column 19 (char 18)"
+    },
+    {
+      "path": "inbox\\no_keys.json",
+      "reason": "отсутствуют поля: id, name"
+    },
+    {
+      "path": "inbox\\not_object.json",
+      "reason": "JSON должен быть объектом (словарём)"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 30
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "name": "Carol",
+      "age": 28
+    }
+  ]
+}
