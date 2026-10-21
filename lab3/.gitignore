@@ -1,8 +1,11 @@
-.ipynb_checkpoints/
+.env
+venv/
+venv_*/
 __pycache__/
 *.pyc
-ЛР3_Python_04_Обработка исключений_Модуль_OS_Виртуальные_окружения.ipynb
-*.json
-*.txt
-tree/
-jsonutils.py
+*.log
+.idea/
+.vscode/
+.ipynb_checkpoints/
+inbox/
+catalog.json
