@@ -1,0 +1,16 @@
+.env
+venv/
+venv_*/
+__pycache__/
+*.pyc
+*.log
+*.txt
+.idea/
+.vscode/
+.ipynb_checkpoints/
+inbox/
+tree/
+*.json
+ЛР3_Python_04_Обработка исключений_Модуль_OS_Виртуальные_окружения.ipynb
+jsonutils.py
+catalog.json
