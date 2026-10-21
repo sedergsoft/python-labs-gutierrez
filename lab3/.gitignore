@@ -1,0 +1,12 @@
+.env
+venv/
+venv_*/
+__pycache__/
+*.pyc
+*.log
+*.txt
+.idea/
+.vscode/
+.ipynb_checkpoints/
+inbox/
+*.json
