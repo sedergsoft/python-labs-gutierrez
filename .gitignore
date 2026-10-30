@@ -16,3 +16,8 @@ readme.md
 lab2/a/
 lab2/nueva_carpeta/
 lab2/lab2_data/
+lab05/lab5_data/
+lab05/lab5_output/
+lab05/__pycache__/
+lab05/.ipynb_checkpoints/
+!lab05/README.md
