@@ -119,3 +119,26 @@ python-labs-gutierrez/
    ```bash
    git clone https://github.com/sedergsoft/python-labs-gutierrez.git
    cd python-labs-gutierrez
+
+### OmniRoute local (opcional)
+
+El repositorio incluye una configuración de OmniRoute para Docker Desktop en
+Windows. Para iniciar el gateway local:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-omniroute.ps1
+```
+
+El panel queda disponible en `http://localhost:20128` y la API compatible con
+OpenAI en `http://localhost:20129/v1`. Para detenerlo:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\stop-omniroute.ps1
+```
+
+Las credenciales de proveedores se guardan en `omniroute/data/`, fuera del
+control de versiones.
+
+Para configurar proveedores con tus propias claves, rellena las variables
+vacías de `omniroute/.env` y ejecuta
+`powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\configure-omniroute-providers.ps1`.
